@@ -15,7 +15,10 @@ public class HttpServer {
             try (Socket socket = serverSocket.accept()) {
                 BufferedReader bufferedReader =
                         new BufferedReader(new InputStreamReader(socket.getInputStream()));
-                String endpoint = bufferedReader.readLine().split(" ")[1];
+
+                String responseHeaderLine1 = bufferedReader.readLine();
+                System.out.println(responseHeaderLine1);
+                String endpoint = responseHeaderLine1.split(" ")[1];
                 if (endpoint.equals("/")) {
                     socket.getOutputStream()
                             .write(("HTTP/1.1 200 OK" + "\r\n\r\n" + "Welcome to HomePage")
