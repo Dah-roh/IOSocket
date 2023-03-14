@@ -16,6 +16,7 @@ public class DatagramA {
         DatagramPacket datagramPacketReceiver;
         DatagramPacket datagramPacketSender;
         Scanner scanner = new Scanner(System.in);
+
         while(true){
             //instantiating a receiver packet object
             datagramPacketReceiver = new DatagramPacket(data, data.length);
