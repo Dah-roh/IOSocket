@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08767124-6821-4617-985e-6f871081e5a9" name="Changes" comment="adds UDP connection">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HTTPServerSun/AboutUs.java" afterDir="false" />
+    <list default="true" id="08767124-6821-4617-985e-6f871081e5a9" name="Changes" comment="adds sun library http server">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UDP/MessengerDatagramOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UDP/MessengerDatagramTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UDP/DatagramA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UDP/DatagramA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HTTPServerSun/AboutUs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HTTPServerSun/AboutUs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/mac/Documents/TOD/IOSocket/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,20 +57,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.TCP.Client" />
-      <module name="IOSocket" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.TCP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MessengerDatagramTwo">
     <configuration name="DatagramA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.UDP.DatagramA" />
       <module name="IOSocket" />
@@ -95,19 +89,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HTTPServer.HttpServer" />
-      <module name="IOSocket" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.HTTPServer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.HTTPServerSun.Main" />
       <module name="IOSocket" />
@@ -121,13 +102,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MessengerDatagramOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.UDP.MessengerDatagramOne" />
+      <module name="IOSocket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.UDP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessengerDatagramTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.UDP.MessengerDatagramTwo" />
+      <module name="IOSocket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.UDP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MessengerDatagramTwo" />
+        <item itemvalue="Application.MessengerDatagramOne" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.DatagramB" />
         <item itemvalue="Application.DatagramA" />
-        <item itemvalue="Application.HttpServer" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +146,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678692945102</updated>
-      <workItem from="1678692946343" duration="10474000" />
+      <workItem from="1678692946343" duration="16434000" />
     </task>
     <task id="LOCAL-00001" summary="changes default endpoint to &quot;/&quot;">
       <created>1678701011742</created>
@@ -162,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678783569124</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adds sun library http server">
+      <created>1678785597618</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678785597618</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +186,7 @@
     <MESSAGE value="changes default endpoint to &quot;/&quot;" />
     <MESSAGE value="adds sout for request header" />
     <MESSAGE value="adds UDP connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="adds UDP connection" />
+    <MESSAGE value="adds sun library http server" />
+    <option name="LAST_COMMIT_MESSAGE" value="adds sun library http server" />
   </component>
 </project>

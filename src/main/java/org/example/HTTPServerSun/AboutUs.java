@@ -19,6 +19,7 @@ public class AboutUs implements HttpHandler {
         response.append("\r\n HomePage");
         response.append("</a>");
         response.append("</b>");
+        response.append("<img src="+ "https://i.pinimg.com/originals/df/e8/a0/dfe8a0663289449e6c127e92ac40da53.jpg " +" />");
         response.append("</body>");
         response.append("<html>");
         String stringMessage = response.toString();
