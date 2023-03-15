@@ -17,8 +17,18 @@ public class HomePage implements HttpHandler {
         response.append("<html>");
         response.append("<body>");
         response.append("<b>");
+        response.append("<h1>");
         response.append("Welcome Home");
+        response.append("</h1>");
         response.append("<a href = /aboutus>");
+        response.append("<style>");
+        response.append("body {");
+        response.append("background-color: yellow;");
+        response.append("}");
+        response.append("h1 {");
+        response.append("color: darkorange;");
+        response.append("}");
+        response.append("</style>");
         response.append("\r\n About Us");
         response.append("</a>");
         response.append("</b>");
