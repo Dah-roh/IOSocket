@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08767124-6821-4617-985e-6f871081e5a9" name="Changes" comment="adds one-way communicating UDP classes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HTTPServerSun/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HTTPServerSun/HomePage.java" afterDir="false" />
-    </list>
+    <list default="true" id="08767124-6821-4617-985e-6f871081e5a9" name="Changes" comment="adds css to homepage" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,7 +144,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678692945102</updated>
-      <workItem from="1678692946343" duration="18578000" />
+      <workItem from="1678692946343" duration="18864000" />
     </task>
     <task id="LOCAL-00001" summary="changes default endpoint to &quot;/&quot;">
       <created>1678701011742</created>
@@ -184,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678870182721</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adds css to homepage">
+      <created>1678873032743</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678873032743</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +200,7 @@
     <MESSAGE value="adds UDP connection" />
     <MESSAGE value="adds sun library http server" />
     <MESSAGE value="adds one-way communicating UDP classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="adds one-way communicating UDP classes" />
+    <MESSAGE value="adds css to homepage" />
+    <option name="LAST_COMMIT_MESSAGE" value="adds css to homepage" />
   </component>
 </project>

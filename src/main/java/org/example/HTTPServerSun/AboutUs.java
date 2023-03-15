@@ -12,7 +12,7 @@ public class AboutUs implements HttpHandler {
         OutputStream outputStream = exchange.getResponseBody();
         StringBuilder response = new StringBuilder();
         response.append("<html>");
-        response.append("<body>");
+        response.append("<body style = \"background-color: yellow;\">");
         response.append("<b>");
         response.append("About our voluminous art gallery");
         response.append("<a href = />");
